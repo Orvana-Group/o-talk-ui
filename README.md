@@ -49,21 +49,25 @@
 
 <h3>Filip Piątek</h3>
 <p><strong>Role:</strong> Co-Founder & Lead Developer</p>
-<p>Jane is a creative UI/UX designer with a passion for building user-centered products. She designed the intuitive interface of O-Talk and worked to ensure that it integrates seamlessly with a variety of websites.</p>
-<ul>
-    <li>
-        <a href="https://instagram.com/aveja_pl" target="_blank">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" width="20" height="20"> Instagram
+<p>Hi! I’m Filip, a backend-focused fullstack developer with a passion for building scalable solutions and tackling complex problems. I’m one of the creators behind O-Talk, an AI-powered chatbot designed for smooth and natural user interactions.</p>
+<ul style="list-style-type: none; padding: 0;">
+    <li style="display: flex; align-items: center; margin-bottom: 5px;">
+        <a href="https://instagram.com/aveja_pl" target="_blank" style="display: flex; align-items: center;">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" width="20" height="20" style="margin-right: 8px;"> Instagram
         </a>
     </li>
-    <li>
-        <a href="https://janesmith.com" target="_blank">
-           <img src="./portfolio-icon.svg" alt="Filip's portoflio" width=20> Portfolio
-    </a></li>
-    <li><a href="https://facebook.com/AveJaPl" target="_blank">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook" width="20" height="20"> Facebook
-    </a></li>
+    <li style="display: flex; align-items: center; margin-bottom: 5px;">
+        <a href="https://www.filip-piatek.netlify.app" target="_blank" style="display: flex; align-items: center;">
+            <img src="./portfolio-icon.svg" alt="Filip's portfolio" width="20" style="margin-right: 8px;"> Portfolio
+        </a>
+    </li>
+    <li style="display: flex; align-items: center; margin-bottom: 5px;">
+        <a href="https://facebook.com/AveJaPl" target="_blank" style="display: flex; align-items: center;">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook" width="20" height="20" style="margin-right: 8px;"> Facebook
+        </a>
+    </li>
 </ul>
+
 
 <p>If you'd like to reach out to Jakub or Filip for any queries or to collaborate, feel free to connect with them through the links above!</p>
 
