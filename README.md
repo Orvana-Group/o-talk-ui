@@ -14,33 +14,17 @@
     <li><strong>Mobile-Friendly</strong>: Responsive design ensures great performance on both desktop and mobile devices.</li>
 </ul>
 
-<hr>
-
-<h2>📦 Installation</h2>
-
-<p>If you'd like to host O-Talk locally, clone this repository and follow the instructions below:</p>
-
-<pre>
-<code>&lt;bash&gt;
-git clone https://github.com/your-username/otalk.git
-cd otalk
-npm install
-npm start
-&lt;/bash&gt;
-</code>
-</pre>
-
-<hr>
-
 <h2>🛠 Configuration</h2>
 
-<p>O-Talk offers several configuration options for more advanced users. To customize the bot’s behavior, refer to the <a href="link-to-docs">O-Talk Configuration Guide</a>.</p>
+<p>O-Talk offers several configuration options for more advanced users. To customize the bot’s behavior, refer to the <a href="https://github.com/Orvana-Group/o-talk-widget">O-Talk Configuration Guide</a>.</p>
 
 <hr>
 
 <h2>📄 License</h2>
 
-<p>This project is licensed under the MIT License. See the <a href="./LICENSE">LICENSE</a> file for details.</p>
+<p>The ui project is licensed under the MIT License. See the <a href="./LICENSE">LICENSE</a> file for details.</p>
+
+<p>To get the chat popup functionality you have to subscribe to one of our plans.</p>
 
 <hr>
 
