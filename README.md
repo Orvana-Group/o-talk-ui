@@ -67,11 +67,14 @@ npm start
 <p><strong>Role:</strong> Co-Founder & Lead Developer</p>
 <p>Jane is a creative UI/UX designer with a passion for building user-centered products. She designed the intuitive interface of O-Talk and worked to ensure that it integrates seamlessly with a variety of websites.</p>
 <ul>
-    <li><a href="https://instagram.com/aveja_pl" target="_blank">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" width="20" height="20"> Instagram
-    </a></li>
-    <li><a href="https://janesmith.com" target="_blank">
-        <img src="https://camo.githubusercontent.com/8b393b72e01791327a9a766c79804d75f06b461a7ffc954fefcdf399ec6c5a39/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f6f706572612e737667" alt="Personal Website" width="20" height="20"> Personal Website
+    <li>
+        <a href="https://instagram.com/aveja_pl" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" width="20" height="20"> Instagram
+        </a>
+    </li>
+    <li>
+        <a href="https://janesmith.com" target="_blank">
+           <img src="./portfolio-icon.svg" alt="Filip's portoflio" width=20> Portfolio
     </a></li>
     <li><a href="https://facebook.com/AveJaPl" target="_blank">
         <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook" width="20" height="20"> Facebook
