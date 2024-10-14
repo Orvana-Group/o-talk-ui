@@ -42,7 +42,7 @@ export const UserHeadline = () => {
   }, []);
 
   return (
-    <Card className="flex items-center space-x-4 p-4">
+    <Card className="flex items-center space-x-4 p-4 border-0 bg-transparent">
       {/* Skeleton dla danych użytkownika */}
       {loading ? (
         <>
