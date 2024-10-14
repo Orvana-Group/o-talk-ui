@@ -1,12 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
-import { IoPricetagOutline } from "react-icons/io5";
+import { IoPricetagOutline, IoHomeOutline } from "react-icons/io5";
 import { HiOutlineUsers } from "react-icons/hi2";
 import { AiOutlineMail } from "react-icons/ai";
 import { UserHeadline } from "./UserHeadline";
-import { IoHomeOutline } from "react-icons/io5";
 
-// Icons are only used on mobile displays
+// Ikony są używane tylko na wyświetleniach mobilnych
 const routes = [
   {
     name: "Home",
@@ -35,31 +34,42 @@ const routes = [
   },
 ];
 
-export const Header = async () => {
+export const Header = () => {
   return (
     <header className="flex items-center justify-between p-4">
-      <div className="flex items-center p-4">
+      {/* Logo */}
+      <div className="flex items-center p-4 w-[288px]">
         <Link href="/">
           <Image
             src="/logo-no-background.svg"
             alt="o-talk"
-            width={150}
+            width={149}
             height={150}
           />
         </Link>
       </div>
+
+      {/* Nawigacja */}
+      <nav className="space-x-12 flex items-center p-4">
+        {routes.map((route) => (
+          <Link
+            key={route.name}
+            href={route.href}
+            className="relative flex items-center group"
+          >
+            {/* Tekst linku */}
+            <span className="uppercase transition-colors duration-300 group-hover:text-primary">
+              {route.name}
+            </span>
+
+            {/* Podkreślenie z animacją od środka */}
+            <span className="absolute left-0 bottom-0 w-full h-0.5 bg-primary transform scale-x-0 origin-center transition-transform duration-300 group-hover:scale-x-100"></span>
+          </Link>
+        ))}
+      </nav>
+
+      {/* Nagłówek użytkownika */}
       <div className="flex items-center space-x-8">
-        <div className="space-x-12 flex items-center p-4">
-          {routes.map((route) => (
-            <Link
-              key={route.name}
-              href={route.href}
-              className="flex items-center space-x-2"
-            >
-              <span>{route.name}</span>
-            </Link>
-          ))}
-        </div>
         <UserHeadline />
       </div>
     </header>
